@@ -1,0 +1,32 @@
+Comp assignment
+
+function threeDigitPuzzle( start, goal, forbidden): // what will they be inputted as (string?)
+
+// start - starting digit
+// goal - end goal for digits to be 
+// forbidden - not acceptable state
+
+
+// trying to get the smallest number of moves to solve threeDigitPuzzle
+
+// 1 move = +- 1 to one of the 3 digits
+
+// rules:
+    - cannot add to 9/ subtract from 0
+    - cannot move number into forbidden number state
+    - cannot change same digit twice in two successive moves
+
+
+// req:
+
+moveCounter // counts which was the last move eg 1, 2, 3
+bestMoveNumber // returns best move count
+currentMoveNumber // counts the number of moves for each iteration
+
+Cases -> 
+
+6 search strategies: BFS / DFS/ IDS/ Greedy/ A* / Hill-climbing
+
+for searches with heuristic involved -> use Manhatten heuristic
+
+
