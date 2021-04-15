@@ -30,3 +30,24 @@ Cases ->
 for searches with heuristic involved -> use Manhatten heuristic
 
 
+
+
+
+
+
+def hillclimb(start_state, goal_state, *forbidden):
+    # to do
+    nodes_tree = []
+
+    return
+
+
+def greedy(start_state, goal_state, *forbidden):
+    # to do
+    nodes_tree = []
+
+    return
+
+
+def A(start_state, goal_state, *forbidden):
+
